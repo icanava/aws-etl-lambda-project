@@ -1,6 +1,16 @@
 ## 📸 Step-by-Step Deployment (with Screenshots)
 
 This section walks through the entire deployment process from Lambda setup to Athena queries, with visual proof at each step.
+## ☁️ Services Used
+
+| Service     | Purpose                              | Status   |
+|-------------|---------------------------------------|----------|
+| AWS Lambda  | Python ETL logic                      | ✅ Success |
+| AWS S3      | Store raw and cleaned CSV files       | ✅ Success |
+| AWS Athena  | Query cleaned data with SQL           | ✅ Success |
+| AWS IAM     | Control access between Lambda/S3      | ✅ Success |
+| AWS Glue    | Crawl S3 to generate Athena schema     | ⚠️ Attempted (issues noted) |
+| AWS CloudWatch | View Lambda logs                   | ✅ Success |
 
 ![image](https://github.com/user-attachments/assets/a265380e-a8b5-4005-b7db-44b7e6a6d79b)
 
