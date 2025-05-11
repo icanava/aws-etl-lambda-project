@@ -40,8 +40,7 @@ SELECT genre, COUNT(*) AS movie_count
 FROM imdb_movies_cleaned
 GROUP BY genre
 ORDER BY movie_count DESC;
-
----
+```
 
 ## 📸 Step-by-Step Deployment (with Screenshots)
 
