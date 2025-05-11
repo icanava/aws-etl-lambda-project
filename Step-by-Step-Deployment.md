@@ -1,6 +1,7 @@
 ## 📸 Step-by-Step Deployment (with Screenshots)
 
 This section walks through the entire deployment process from Lambda setup to Athena queries, with visual proof at each step.
+![image](https://github.com/user-attachments/assets/a265380e-a8b5-4005-b7db-44b7e6a6d79b)
 
 ### 1. Uploading Raw IMDb CSV to S3
 _Screenshot: s3_raw_csv_upload.png_
