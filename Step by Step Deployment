@@ -5,34 +5,46 @@ This section walks through the entire deployment process from Lambda setup to At
 ### 1. Uploading Raw IMDb CSV to S3
 _Screenshot: s3_raw_csv_upload.png_
 
-Explain: The raw CSV file was uploaded to an S3 bucket named `your-bucket-name`.
+**Explanation:** The raw CSV file was uploaded to an S3 bucket named `your-bucket-name`.
+
+---
 
 ### 2. Lambda Function Setup
 _Screenshot: lambda_config.png_
 
-Explain: Python function set up to clean the data, connected to S3 via IAM roles.
+**Explanation:** Python function set up to clean the data, connected to S3 via IAM roles.
+
+---
 
 ### 3. Lambda Test Output
 _Screenshot: lambda_success.png_
 
-Explain: A test event triggered the function, returning a `status: success` with `872 rows`.
+**Explanation:** A test event triggered the function, returning a `status: success` with `872 rows`.
+
+---
 
 ### 4. Cleaned CSV in S3
 _Screenshot: s3_cleaned_csv.png_
 
-Explain: The cleaned CSV is saved back into the S3 bucket.
+**Explanation:** The cleaned CSV is saved back into the S3 bucket.
+
+---
 
 ### 5. Athena Table Setup
 _Screenshot: glue_catalog_table.png_
 
-Explain: AWS Glue crawler created a table to query the cleaned CSV.
+**Explanation:** AWS Glue crawler created a table to query the cleaned CSV.
+
+---
 
 ### 6. Querying in Athena
 _Screenshot: athena_query_results.png_
 
-Explain: Successfully ran a SQL query to analyze genre distribution.
+**Explanation:** Successfully ran a SQL query to analyze genre distribution.
+
+---
 
 ### 7. (Optional) Architecture Diagram
 _Screenshot: architecture_diagram.png_
 
-Explain: Diagram showing Lambda → S3 → Athena → SQL
+**Explanation:** Diagram showing Lambda → S3 → Athena → SQL
