@@ -41,6 +41,8 @@ FROM imdb_movies_cleaned
 GROUP BY genre
 ORDER BY movie_count DESC;
 
+---
+
 ## 📸 Step-by-Step Deployment (with Screenshots)
 
 This section walks through the entire deployment process from Lambda setup to Athena queries, with visual proof at each step.
