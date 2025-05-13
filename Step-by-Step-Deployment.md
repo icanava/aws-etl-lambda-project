@@ -48,7 +48,7 @@ This section walks through the entire deployment process from Lambda setup to At
 
 ---
 
-### 6. Glue Crawler Setup
+### 5. Glue Crawler Setup
 <img src="https://github.com/user-attachments/assets/a01f1d5c-b4a9-4504-9e9b-799e95233f63" alt="Glue Catalog Table" height="600"/>
 
 
