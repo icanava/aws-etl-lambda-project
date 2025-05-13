@@ -12,7 +12,8 @@ This section walks through the entire deployment process from Lambda setup to At
 | AWS Glue    | Crawl S3 to generate Athena schema     | 
 | AWS CloudWatch | View Lambda logs                   | 
 
-![image](https://github.com/user-attachments/assets/a265380e-a8b5-4005-b7db-44b7e6a6d79b)
+![aws-security-thumbnail](https://github.com/user-attachments/assets/91b253e3-8e45-4c11-82c9-3db9d0ec9c64)
+
 
 ### 1. Uploading Raw IMDb CSV to S3
 _Screenshot: s3_raw_csv_upload.png_
