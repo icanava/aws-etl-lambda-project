@@ -13,7 +13,8 @@ This section walks through the entire deployment process from Lambda setup to At
 | AWS CloudWatch | View Lambda logs                   | 
 
 
-![aws-etl-thumbnail](https://github.com/user-attachments/assets/00b6da5c-c56c-4961-8095-3fdd4871f827)
+<img src="https://github.com/user-attachments/assets/00b6da5c-c56c-4961-8095-3fdd4871f827" alt="aws-etl-thumbnail" width="600"/>
+
 
 ### 1. Uploading Raw IMDb CSV to S3
 _Screenshot: s3_raw_csv_upload.png_
