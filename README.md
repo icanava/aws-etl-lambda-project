@@ -4,7 +4,7 @@ This project is a fully serverless ETL pipeline built with **AWS Lambda**, **S3*
 
 ---
 
-## 🧠 Objective
+## 🧠 Goal
 
 Create a cloud-native ETL pipeline that:
 - Cleans a raw CSV dataset from IMDb
@@ -42,7 +42,7 @@ GROUP BY genre
 ORDER BY movie_count DESC;
 ```
 
-## 📸 Step-by-Step Deployment (with Screenshots)
+## 📸 Step-by-Step Deployment
 
 This section walks through the entire deployment process from Lambda setup to Athena queries — including a few key troubleshooting notes from the build.
 
