@@ -1,4 +1,4 @@
-## 📸 Step-by-Step Deployment (with Screenshots)
+## 📸 Step-by-Step Deployment 
 
 This section walks through the entire deployment process from Lambda setup to Athena queries — including a few key troubleshooting notes from the build.
 
